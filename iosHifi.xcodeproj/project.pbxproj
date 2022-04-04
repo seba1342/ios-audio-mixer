@@ -11,6 +11,16 @@
 		BE028F3927F7F6880019AE16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE028F3827F7F6880019AE16 /* ContentView.swift */; };
 		BE028F3B27F7F6890019AE16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE028F3A27F7F6890019AE16 /* Assets.xcassets */; };
 		BE028F3E27F7F6890019AE16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE028F3D27F7F6890019AE16 /* Preview Assets.xcassets */; };
+		BE028F4527F7F8310019AE16 /* SoundManagerOld.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE028F4427F7F8310019AE16 /* SoundManagerOld.swift */; };
+		BE028F4F27F7F8EC0019AE16 /* met_4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4727F7F8EC0019AE16 /* met_4.mp3 */; };
+		BE028F5027F7F8ED0019AE16 /* noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4827F7F8EC0019AE16 /* noise.mp3 */; };
+		BE028F5127F7F8ED0019AE16 /* met_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4927F7F8EC0019AE16 /* met_1.mp3 */; };
+		BE028F5227F7F8ED0019AE16 /* met_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4A27F7F8EC0019AE16 /* met_3.mp3 */; };
+		BE028F5327F7F8ED0019AE16 /* mellotron.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4B27F7F8EC0019AE16 /* mellotron.mp3 */; };
+		BE028F5427F7F8ED0019AE16 /* drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4C27F7F8EC0019AE16 /* drum.mp3 */; };
+		BE028F5527F7F8ED0019AE16 /* met_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4D27F7F8EC0019AE16 /* met_2.mp3 */; };
+		BE028F5627F7F8ED0019AE16 /* viola.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BE028F4E27F7F8EC0019AE16 /* viola.mp3 */; };
+		BE028F5827F8043F0019AE16 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE028F5727F8043F0019AE16 /* SoundManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,16 @@
 		BE028F3827F7F6880019AE16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE028F3A27F7F6890019AE16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE028F3D27F7F6890019AE16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE028F4427F7F8310019AE16 /* SoundManagerOld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManagerOld.swift; sourceTree = "<group>"; };
+		BE028F4727F7F8EC0019AE16 /* met_4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = met_4.mp3; sourceTree = "<group>"; };
+		BE028F4827F7F8EC0019AE16 /* noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = noise.mp3; sourceTree = "<group>"; };
+		BE028F4927F7F8EC0019AE16 /* met_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = met_1.mp3; sourceTree = "<group>"; };
+		BE028F4A27F7F8EC0019AE16 /* met_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = met_3.mp3; sourceTree = "<group>"; };
+		BE028F4B27F7F8EC0019AE16 /* mellotron.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mellotron.mp3; sourceTree = "<group>"; };
+		BE028F4C27F7F8EC0019AE16 /* drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum.mp3; sourceTree = "<group>"; };
+		BE028F4D27F7F8EC0019AE16 /* met_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = met_2.mp3; sourceTree = "<group>"; };
+		BE028F4E27F7F8EC0019AE16 /* viola.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = viola.mp3; sourceTree = "<group>"; };
+		BE028F5727F8043F0019AE16 /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +55,7 @@
 		BE028F2A27F7F6880019AE16 = {
 			isa = PBXGroup;
 			children = (
+				BE028F5727F8043F0019AE16 /* SoundManager.swift */,
 				BE028F3527F7F6880019AE16 /* iosHifi */,
 				BE028F3427F7F6880019AE16 /* Products */,
 			);
@@ -51,10 +72,12 @@
 		BE028F3527F7F6880019AE16 /* iosHifi */ = {
 			isa = PBXGroup;
 			children = (
+				BE028F4627F7F8CC0019AE16 /* Sounds */,
 				BE028F3627F7F6880019AE16 /* iosHifiApp.swift */,
 				BE028F3827F7F6880019AE16 /* ContentView.swift */,
 				BE028F3A27F7F6890019AE16 /* Assets.xcassets */,
 				BE028F3C27F7F6890019AE16 /* Preview Content */,
+				BE028F4427F7F8310019AE16 /* SoundManagerOld.swift */,
 			);
 			path = iosHifi;
 			sourceTree = "<group>";
@@ -65,6 +88,21 @@
 				BE028F3D27F7F6890019AE16 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE028F4627F7F8CC0019AE16 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BE028F4C27F7F8EC0019AE16 /* drum.mp3 */,
+				BE028F4B27F7F8EC0019AE16 /* mellotron.mp3 */,
+				BE028F4927F7F8EC0019AE16 /* met_1.mp3 */,
+				BE028F4D27F7F8EC0019AE16 /* met_2.mp3 */,
+				BE028F4A27F7F8EC0019AE16 /* met_3.mp3 */,
+				BE028F4727F7F8EC0019AE16 /* met_4.mp3 */,
+				BE028F4827F7F8EC0019AE16 /* noise.mp3 */,
+				BE028F4E27F7F8EC0019AE16 /* viola.mp3 */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +163,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE028F5527F7F8ED0019AE16 /* met_2.mp3 in Resources */,
+				BE028F4F27F7F8EC0019AE16 /* met_4.mp3 in Resources */,
+				BE028F5127F7F8ED0019AE16 /* met_1.mp3 in Resources */,
+				BE028F5327F7F8ED0019AE16 /* mellotron.mp3 in Resources */,
+				BE028F5027F7F8ED0019AE16 /* noise.mp3 in Resources */,
+				BE028F5227F7F8ED0019AE16 /* met_3.mp3 in Resources */,
+				BE028F5627F7F8ED0019AE16 /* viola.mp3 in Resources */,
 				BE028F3E27F7F6890019AE16 /* Preview Assets.xcassets in Resources */,
+				BE028F5427F7F8ED0019AE16 /* drum.mp3 in Resources */,
 				BE028F3B27F7F6890019AE16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE028F3927F7F6880019AE16 /* ContentView.swift in Sources */,
+				BE028F5827F8043F0019AE16 /* SoundManager.swift in Sources */,
 				BE028F3727F7F6880019AE16 /* iosHifiApp.swift in Sources */,
+				BE028F4527F7F8310019AE16 /* SoundManagerOld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
